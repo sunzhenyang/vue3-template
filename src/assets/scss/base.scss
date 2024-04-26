@@ -1,0 +1,34 @@
+body {
+  background: #fff;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family:
+    Helvetica Neue,
+    Helvetica,
+    PingFang SC,
+    Hiragino Sans GB,
+    Microsoft YaHei,
+    Arial,
+    sans-serif;
+  // overflow-y: scroll;
+}
+
+/* 灰色 */
+.global-gray {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  /* filter: grayscale(100%); */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+  filter: gray;
+}
+
+.fullScreen {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
